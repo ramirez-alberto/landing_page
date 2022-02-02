@@ -100,3 +100,40 @@ ul{
     align-items: center;
     justify-content: center;
 }
+
+/*    information section    */
+
+section.info .header{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.info .container .info .image {
+    width: 179px;
+    height: 170px;
+    border: 5px solid #3282F6;
+    border-radius: 15px;
+  }
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: white;
+    color:#1F2937;
+  }
+  
+.container .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    text-align: center;
+  }
+  
+.info .container .info .text{
+    font-size: 18px;
+
+}
