@@ -108,6 +108,7 @@ section.info .header{
     font-weight: 900;
     font-size: 36px;
     text-align: center;
+    margin: 40px;
 }
 
 .info .container .info .image {
@@ -120,9 +121,10 @@ section.info .header{
 .info .container {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 70px;
     background-color: white;
     color:#1F2937;
+    margin-bottom: 88px;
   }
   
 .container .info {
@@ -135,5 +137,4 @@ section.info .header{
   
 .info .container .info .text{
     font-size: 18px;
-
 }
