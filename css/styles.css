@@ -138,3 +138,38 @@ section.info .header{
 .info .container .info .text{
     font-size: 18px;
 }
+
+/*    Quote section    */
+
+.quote,.quote .container{
+    background-color: #E5E7EB;
+}
+
+.quote .container .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    color: #26303d;
+    text-align: justify;
+}
+
+.container .author{
+    color: #26303d;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote .container{
+    width: 800px;
+    margin: 129px;
+    
+}
